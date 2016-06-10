@@ -4,16 +4,20 @@
       <meta charset=utf-8">
       <meta name="viewport" content="width=device.width, initial-scale=1">
       <!--[if lt IE 9]> <script src="dist/html5shiv.js"></script> <![endif]-->
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/about_styles.css">
-      <title>The title</title>
+      <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <title>About</title>
    </head>
+
    <body>
-      <div class="container">
+      <div class="box">
       <div class="nav">
          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+       	<li><a href="index.html">Home</a></li>
+       	<li><a href="#">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="faq.html">faq</a></li>
          </ul>
       </div>
       <div class="header">
@@ -63,7 +67,8 @@
                forever.
             </p>
          </div>
-      </div>
-      <!-- end container -->
+      </div>   <!-- end container -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    </body>
 </html>
