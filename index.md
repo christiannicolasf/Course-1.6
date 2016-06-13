@@ -17,9 +17,62 @@
       <![endif]-->
    </head>
    <body>
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-         <div class="container">
+
+       <div class="nav">
+         <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="faq.html">faq</a></li>
+         </ul>
+      </div>
+<!--       <div class="jumbotron"> -->
+
+<div class="container">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/forest.jpg" alt="forest">
+      <div class="carousel-caption">
+    <h3>Henry David Thoreau</h3>
+    <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/sea.jpg" alt="sea">
+      <div class="carousel-caption">
+    <h3>Herman Melville</h3>
+    <p>As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/valley.jpg" alt="valley">
+      <div class="carousel-caption">
+    <h3>Nelson Mandela</h3>
+    <p>There is no easy walk to freedom anywhere, and many of us will have to pass through the valley of the shadow of death again and again before we reach the mountaintop of our desires.</p>
+      </div>
+    </div>
+  </div> <!-- end coursel-innerclass -->
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
             <h1>Church of Coding ت</h1>
             <p><strong>Connecting mind, heart and soul.</strong></p>
             <a href="about.html">How to believe in the skill of coding?</a>
